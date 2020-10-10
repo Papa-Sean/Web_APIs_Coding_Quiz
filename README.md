@@ -4,6 +4,28 @@ Starting the project:
 - Layout page
     html:
     - add nav bar
+    - add div for quiz
+    - add div for results
+    javascript
+    - build quiz "outline"
+    - establish possible answers
+    - establish what happens when the answer is right
+    - establish what happens when the answer is not right
+    - create variables for HTML
+    - create questions/answers
+    - assign what buttons do/event listeners
+    - create timer
+        Still need to do
+        - create home/html for timer
+        - display timer
+        - link timer to "submit" when it hits 0
+        - create more questions/answers
+
+    CSS 
+    - General style for body
+    - style questions
+    - cleanup radios
+    -
 
 # 04 Web APIs: Code Quiz
 
