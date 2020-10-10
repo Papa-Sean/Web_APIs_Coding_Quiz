@@ -9,3 +9,16 @@ function showResults(){}
 buildQuiz();
 //add event listener for the button
 submitButton.addEventListener('click', showResults);
+//adding questions
+const quizQuestions = [
+    {
+        question: "What does /'CSS/' stand for?",
+        answers: {
+            a: "Club Social Scene",
+            b: "Cascading Style Sheets",
+            c: "Cost Still Stings"
+        },
+        correctAnswer: "b"
+    },
+    {}
+]
