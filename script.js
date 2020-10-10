@@ -1,4 +1,5 @@
-//home for my quiz//
+var timer
+var timeTotal
 (function(){
     function buildQuiz(){
       const output = [];
@@ -133,5 +134,11 @@
     previousButton.addEventListener("click", showPreviousSlide);
     nextButton.addEventListener("click", showNextSlide);
   })();
-  
+//adding a timer to start the first time "next" button is clicked
+  function createTimer(TimerID, time){timer = document.getElementById("TimerID");timeTotal = Time;UpdateTimer();window.setTimeout("Tick()",1000);}
+  function Tick(){
+      if(timeTotal <= 0) {alert("Time's up!");return;} timeTotal -=1;UpdateTimer();window.setTimeout("Tick()",1000);
+    }
+function UpdateTimer(){timer.innerHTML = timeTotal;}
 
+    
