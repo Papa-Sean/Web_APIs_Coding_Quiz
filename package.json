@@ -1,0 +1,22 @@
+{
+  "name": "web_apis_coding_quiz",
+  "version": "1.0.0",
+  "description": "Starting the project:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Papa-Sean/Web_APIs_Coding_Quiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Papa-Sean/Web_APIs_Coding_Quiz/issues"
+  },
+  "homepage": "https://github.com/Papa-Sean/Web_APIs_Coding_Quiz#readme",
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  }
+}
