@@ -1,22 +1,27 @@
 {
-  "name": "web_apis_coding_quiz",
-  "version": "1.0.0",
-  "description": "Starting the project:",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Papa-Sean/Web_APIs_Coding_Quiz.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Papa-Sean/Web_APIs_Coding_Quiz/issues"
-  },
-  "homepage": "https://github.com/Papa-Sean/Web_APIs_Coding_Quiz#readme",
+  "name": "react-quiz",
+  "version": "2.0.0",
+  "private": false,
   "dependencies": {
-    "prop-types": "^15.7.2"
-  }
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts": "2.0.4",
+    "react-transition-group": "^1.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
